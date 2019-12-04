@@ -5,7 +5,14 @@ import './App.css';
 function App() {
   return (
     <div>
-      Phone Directory
+      <div className="header">
+          Phone Directory
+        </div>
+        <button>ADD</button>
+        <div>
+          <span>NAME</span><br />
+          <span>PHONE</span>
+        </div>
     </div>
   );
 }
